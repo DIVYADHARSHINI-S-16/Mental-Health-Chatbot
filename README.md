@@ -1,117 +1,126 @@
-# 🧠 Mental Health Companion Chatbot
+🧠 AI Mental Health Companion for Students
 
-A supportive, AI-powered chatbot designed to help students manage stress, anxiety, and loneliness through sentiment analysis, empathetic responses, and personalized relaxation techniques.
+An AI-powered mental health support web application designed especially for students.
 
-## Features
+The system provides empathetic conversations, mood tracking, wellness tips, breathing exercises, affirmations, and emotional support using Generative AI.
 
-✨ **Key Capabilities:**
-- **Mood Detection**: Analyzes user sentiment using TextBlob to detect emotional state
-- **Empathetic Responses**: Uses Groq AI (Mixtral 8x7B) to generate compassionate, supportive messages
-- **Relaxation Tips**: Provides mood-specific relaxation and coping strategies
-- **Conversation History**: Maintains chat history and mood tracking
-- **Crisis Resources**: Quick access to mental health hotlines and support services
-- **Beautiful UI**: Clean, welcoming interface built with Streamlit
+📌 Project Overview
 
-## Installation
+Students often experience stress, anxiety, academic pressure, loneliness, and burnout, but may hesitate to seek immediate professional help.
 
-### 1. **Install Dependencies**
+This project aims to provide a safe, supportive, and non-judgmental digital companion that helps students express their feelings, track emotional well-being, and receive calming guidance using AI.
 
-```bash
-pip install -r requirements.txt
-```
+⚠️ This chatbot is not a replacement for professional mental health care.
 
-### 2. **Get Groq API Key**
+✨ Features
 
-1. Visit [Groq Console](https://console.groq.com)
-2. Sign up for a free account
-3. Create an API key in the dashboard
-4. Copy your API key
+💬 AI-Powered Mental Health Chatbot
 
-### 3. **Set Up Environment Variables**
+😊 Mood Detection & Emotional Analysis
 
-1. Rename `.env.example` to `.env`:
-```bash
-mv .env.example .env
-```
+🔥 Daily Mood Check-in & Streak Tracking
 
-2. Add your Groq API key to `.env`:
-```
-GROQ_API_KEY=your_actual_api_key_here
-```
+🧘 Guided Breathing Exercises
 
-## Running the Application
+🌱 Daily Affirmations & Wellness Tips
 
-```bash
-streamlit run main.py
-```
+📊 Mood History & Emotional Insights
 
-The app will open in your browser at `http://localhost:8501`
+🆘 Crisis Resources & Support Information
 
-## How It Works
+🎨 Attractive, Animated Dark-Mode UI
 
-1. **User Input**: Type your feelings or thoughts into the chat box
-2. **Mood Detection**: The app analyzes your message sentiment (positive, neutral, negative)
-3. **AI Response**: Groq generates an empathetic, supportive response
-4. **Relaxation Tips**: Receive personalized wellness suggestions based on your mood
-5. **Track Progress**: View your mood history in the dashboard
+🌐 Student-Friendly Web Interface
 
-## Technology Stack
+🛠️ Tools & Technologies Used
+Component	Technology
+Frontend	Streamlit
 
-- **Streamlit**: Interactive web interface
-- **TextBlob**: Sentiment analysis for mood detection
-- **Groq**: Fast LLM API (Mixtral 8x7B model)
-- **Python-dotenv**: Secure environment variable management
+Backend		Python
 
-## Key Components
+AI Model(LLM)	Groq (Mixtral-8x7B)
 
-### Sentiment Analysis
-- Polarity scoring: -1 (very negative) to +1 (very positive)
-- Classification: Positive (>0.1), Neutral (-0.1 to 0.1), Negative (<-0.1)
+NLP		TextBlob (Sentiment Analysis)
 
-### Response Generation
-- System prompt ensures empathetic, supportive tone
-- Temperature: 0.7 (balanced creativity and consistency)
-- Max tokens: 300 (concise but thorough responses)
+UI Styling	Custom CSS Animations
 
-### Relaxation Tips Database
-- 10 negative mood tips (deep breathing, walking, music, journaling, etc.)
-- 6 neutral mood tips (goal-setting, learning, exercise, etc.)
-- 6 positive mood tips (celebration, gratitude, kindness, etc.)
+State Handling	Streamlit Session State
 
-## Resources & Support
+Environment	Python Virtual Environment
 
-If you or someone you know is struggling:
+🧠 AI & System Approach
 
-- **Crisis Text Line**: Text HOME to 741741
-- **National Suicide Prevention Lifeline (US)**: 988
-- **International**: Visit [findahelpline.com](https://findahelpline.com)
+The application uses a Generative AI–driven conversational system:
 
-## Important Disclaimer
+User inputs emotional text
 
-⚠️ **This chatbot is a support tool, not a replacement for professional mental health care.**
+Sentiment analysis detects mood (Positive / Neutral / Negative)
 
-If you're experiencing:
-- Suicidal thoughts
-- Severe depression or anxiety
-- Self-harm urges
-- Crisis situations
+Mood-based system prompts guide AI responses
 
-**Please reach out to a mental health professional or emergency service immediately.**
+LLM generates empathetic, context-aware replies
 
-## Future Enhancements
+Wellness tips and calming exercises adapt to the user’s emotional state
 
-- [ ] User accounts and persistent data
-- [ ] Mood tracking visualizations
-- [ ] Recommended professional resources by location
-- [ ] Integration with calendar for stress management
-- [ ] Voice input/output support
-- [ ] Multi-language support
-- [ ] Customizable relaxation exercises (videos, guided meditation)
+mental-health-chatbot/
 
-## License
+│
 
-This project is open-source and available for educational purposes.
+├── main.py              # Main Streamlit application (UI + logic)
 
----
+├── requirements.txt     # Python dependencies
 
-**Remember**: You're not alone. Taking care of your mental health is an act of self-love. 💙
+├── .env                 # Environment variables (API keys – not pushed to GitHub)
+
+└── README.md            # Project documentation
+
+
+📊 Results & Observations
+
+Provides empathetic and supportive AI responses
+
+Helps students reflect on emotions safely
+
+Encourages emotional awareness through mood tracking
+
+Reduces stress using breathing and calming exercises
+
+Easy-to-use interface suitable for daily student use
+
+🚀 Future Enhancements
+
+Multilingual mental health support
+
+Voice-based interaction
+
+Journaling & reflection logs
+
+Emergency contact alerts
+
+AI-based stress pattern analysis
+
+Mobile app deployment
+
+Optional therapist integration
+
+📚 References
+
+Streamlit Documentation
+
+Groq LLM Documentation
+
+TextBlob NLP Library
+
+WHO Mental Health Resources
+
+Open-source UI & Accessibility Guidelines
+
+👨‍🎓 Developed For
+
+Internship / Academic Project
+
+Domain: Generative AI | Mental Health | Web Application
+
+Designed especially for students and young learners ❤️
+
+Mood history is stored for insights and streak tracking
