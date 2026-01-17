@@ -1,10 +1,10 @@
-🧠 AI Mental Health Companion for Students
+🧠 AI Mental Health Companion for Students:
 
 An AI-powered mental health support web application designed especially for students.
 
 The system provides empathetic conversations, mood tracking, wellness tips, breathing exercises, affirmations, and emotional support using Generative AI.
 
-📌 Project Overview
+📌 Project Overview:
 
 Students often experience stress, anxiety, academic pressure, loneliness, and burnout, but may hesitate to seek immediate professional help.
 
@@ -12,7 +12,7 @@ This project aims to provide a safe, supportive, and non-judgmental digital comp
 
 ⚠️ This chatbot is not a replacement for professional mental health care.
 
-✨ Features
+✨ Features:
 
 💬 AI-Powered Mental Health Chatbot
 
@@ -50,7 +50,7 @@ State Handling	Streamlit Session State
 
 Environment	    Python Virtual Environment
 
-🧠 AI & System Approach
+🧠 AI & System Approach:
 
 The application uses a Generative AI–driven conversational system:
 
@@ -77,7 +77,7 @@ mental-health-chatbot/
 └── README.md            # Project documentation
 
 
-📊 Results & Observations
+📊 Results & Observations:
 
 Provides empathetic and supportive AI responses
 
@@ -89,7 +89,7 @@ Reduces stress using breathing and calming exercises
 
 Easy-to-use interface suitable for daily student use
 
-🚀 Future Enhancements
+🚀 Future Enhancements:
 
 Multilingual mental health support
 
@@ -105,7 +105,7 @@ Mobile app deployment
 
 Optional therapist integration
 
-📚 References
+📚 References:
 
 Streamlit Documentation
 
@@ -117,7 +117,7 @@ WHO Mental Health Resources
 
 Open-source UI & Accessibility Guidelines
 
-👨‍🎓 Developed For
+👨‍🎓 Developed For:
 
 Internship 
 
@@ -126,6 +126,7 @@ Domain: Generative AI | Mental Health | Web Application
 Designed especially for students and young learners ❤️
 
 Mood history is stored for insights and streak tracking
+
 
 
 
