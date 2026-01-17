@@ -33,16 +33,18 @@ This project aims to provide a safe, supportive, and non-judgmental digital comp
 🌐 Student-Friendly Web Interface
 
 🛠️ Tools & Technologies Used
-Component	Technology
-Frontend	Streamlit
 
-Backend		Python
+Component	      Technology
 
-AI Model(LLM)	Groq (Mixtral-8x7B)
+Frontend	      Streamlit
 
-NLP		TextBlob (Sentiment Analysis)
+Backend		      Python
 
-UI Styling	Custom CSS Animations
+AI Model(LLM)	  Groq (Mixtral-8x7B)
+
+NLP		          TextBlob (Sentiment Analysis)
+
+UI Styling	    Custom CSS Animations
 
 State Handling	Streamlit Session State
 
@@ -124,4 +126,5 @@ Domain: Generative AI | Mental Health | Web Application
 Designed especially for students and young learners ❤️
 
 Mood history is stored for insights and streak tracking
+
 
