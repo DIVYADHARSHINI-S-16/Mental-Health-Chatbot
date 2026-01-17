@@ -48,7 +48,7 @@ UI Styling	    Custom CSS Animations
 
 State Handling	Streamlit Session State
 
-Environment	Python Virtual Environment
+Environment	    Python Virtual Environment
 
 🧠 AI & System Approach
 
@@ -126,5 +126,6 @@ Domain: Generative AI | Mental Health | Web Application
 Designed especially for students and young learners ❤️
 
 Mood history is stored for insights and streak tracking
+
 
 
