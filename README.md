@@ -117,10 +117,11 @@ Open-source UI & Accessibility Guidelines
 
 👨‍🎓 Developed For
 
-Internship / Academic Project
+Internship 
 
 Domain: Generative AI | Mental Health | Web Application
 
 Designed especially for students and young learners ❤️
 
 Mood history is stored for insights and streak tracking
+
